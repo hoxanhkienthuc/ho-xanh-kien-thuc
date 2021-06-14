@@ -1,92 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #58257b;
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #ce3e6e;
-  color: white;
-  font-weight: bold;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #e9d8f4;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #db7093;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humburger Menu</title>
+    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 <body>
-
-<ul>
-  <li><a href="https://quantrimang.com/">Trang chủ</a></li>
-  <li class="dropdown">
-    <a href="https://quantrimang.com/lang-cong-nghe" class="dropbtn">
-    Làng Công nghệ</a>
-    <div class="dropdown-content">
-      <a href="#">Tấn công mạng</a>
-      <a href="#">Chuyện Công nghệ</a>
-      <a href="#">Trí tuệ nhân tạo</a>
-    </div>
-  </li>
-  <li class="dropdown">
-    <a href="https://quantrimang.com/cong-nghe" class="dropbtn">Công nghệ</a>
-    <div class="dropdown-content">
-      <a href="#">Ứng dụng</a>
-      <a href="#">Lập trình</a>
-      <a href="#">Game - Trò chơi</a>
-    </div>
-  </li>
-<li class="dropdown">
-   <a href="tel:89969769219" class="dropbtn">Contact</a>
-   <div class="dropdown-content">
-   <a href="tel:89969769219">Số Điện Thoại Liên Hệ</a>
-   <a href="https://m.facebook.com/thanh.2k8.ru">Facebook Liên Hệ</a>
-   <a href="mailto:hoxanhkienthuc.tk@gmail.com">Email Liên Hệ</a>
-</ul>
-
-</body>
-</html>
+        <nav>
+            <div class="logo"><h1>Deltaty</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                </span>
+            </ul>
+        </nav>
